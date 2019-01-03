@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "YFLBaseNavigationController.h"
+#import "OneHomeViewController.h"
+#import "TwoHomeViewController.h"
+#import "ThreeHomeViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,8 +21,44 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [self tabViewInit];
+    
     return YES;
+}
+
+-(void)tabViewInit{
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+    //
+    YFLBaseNavigationController *oneNav = [[YFLBaseNavigationController alloc]initWithRootViewController:[[OneHomeViewController alloc]init]];
+    oneNav.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor grayColor]};
+    oneNav.navigationBar.translucent = NO;
+    oneNav.title = @"ONE 1";
+    
+    //
+    YFLBaseNavigationController *twoNav = [[YFLBaseNavigationController alloc]initWithRootViewController:[[TwoHomeViewController alloc]init]];
+    twoNav.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor grayColor]};
+    twoNav.navigationBar.translucent = NO;
+    twoNav.title = @"TWO 2";
+
+    
+    //
+    YFLBaseNavigationController *threeNav = [[YFLBaseNavigationController alloc]initWithRootViewController:[[ThreeHomeViewController alloc]init]];
+    threeNav.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor grayColor]};
+    threeNav.navigationBar.translucent = NO;
+    threeNav.title = @"THREE 3";
+
+    
+    UITabBarController *tagVC = [[UITabBarController alloc]init];
+    tagVC.viewControllers = @[oneNav,twoNav,threeNav];
+    tagVC.tabBar.translucent = NO;//是否透明
+    
+    
+    self.window.rootViewController = tagVC;
 }
 
 

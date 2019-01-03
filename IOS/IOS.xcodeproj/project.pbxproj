@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A303C5121DE147C001B0F12 /* YFLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5021DE147C001B0F12 /* YFLBaseNavigationController.m */; };
+		3A303C5421DE1573001B0F12 /* OneHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5321DE1573001B0F12 /* OneHomeViewController.m */; };
+		3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5721DE2961001B0F12 /* UIView+EWT.m */; };
+		3A303C6221DE2962001B0F12 /* UIColor+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5921DE2961001B0F12 /* UIColor+EWT.m */; };
+		3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5A21DE2961001B0F12 /* NSString+EWT.m */; };
 		3AC1B2A121CA48A6006892B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A021CA48A6006892B1 /* AppDelegate.m */; };
 		3AC1B2A421CA48A6006892B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A321CA48A6006892B1 /* ViewController.m */; };
 		3AC1B2A721CA48A6006892B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A521CA48A6006892B1 /* Main.storyboard */; };
 		3AC1B2A921CA48A6006892B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A821CA48A6006892B1 /* Assets.xcassets */; };
 		3AC1B2AC21CA48A6006892B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1B2AA21CA48A6006892B1 /* LaunchScreen.storyboard */; };
 		3AC1B2AF21CA48A6006892B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2AE21CA48A6006892B1 /* main.m */; };
+		3ADE6B0F21D7655D0099F329 /* YFLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE6B0E21D7655D0099F329 /* YFLBaseViewController.m */; };
+		3ADE6B1821D769CA0099F329 /* TwoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE6B1721D769CA0099F329 /* TwoHomeViewController.m */; };
+		3ADE6B1B21D76A1E0099F329 /* ThreeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE6B1A21D76A1E0099F329 /* ThreeHomeViewController.m */; };
 		583DC3D7008ED5F257928B1B /* Pods_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF28DE8C6C023F1E58672194 /* Pods_IOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A303C4D21DE0D00001B0F12 /* YFLBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLBase.h; sourceTree = "<group>"; };
+		3A303C4E21DE0EEE001B0F12 /* IOSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSPrefixHeader.pch; sourceTree = "<group>"; };
+		3A303C4F21DE147C001B0F12 /* YFLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLBaseNavigationController.h; sourceTree = "<group>"; };
+		3A303C5021DE147C001B0F12 /* YFLBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLBaseNavigationController.m; sourceTree = "<group>"; };
+		3A303C5221DE1573001B0F12 /* OneHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneHomeViewController.h; sourceTree = "<group>"; };
+		3A303C5321DE1573001B0F12 /* OneHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneHomeViewController.m; sourceTree = "<group>"; };
+		3A303C5621DE2961001B0F12 /* UIView+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EWT.h"; sourceTree = "<group>"; };
+		3A303C5721DE2961001B0F12 /* UIView+EWT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EWT.m"; sourceTree = "<group>"; };
+		3A303C5921DE2961001B0F12 /* UIColor+EWT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EWT.m"; sourceTree = "<group>"; };
+		3A303C5A21DE2961001B0F12 /* NSString+EWT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EWT.m"; sourceTree = "<group>"; };
+		3A303C5D21DE2962001B0F12 /* NSString+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EWT.h"; sourceTree = "<group>"; };
+		3A303C5E21DE2962001B0F12 /* UIColor+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EWT.h"; sourceTree = "<group>"; };
 		3AC1B29C21CA48A6006892B1 /* IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC1B29F21CA48A6006892B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AC1B2A021CA48A6006892B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,6 +47,12 @@
 		3AC1B2AB21CA48A6006892B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AC1B2AD21CA48A6006892B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC1B2AE21CA48A6006892B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ADE6B0D21D7655D0099F329 /* YFLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLBaseViewController.h; sourceTree = "<group>"; };
+		3ADE6B0E21D7655D0099F329 /* YFLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLBaseViewController.m; sourceTree = "<group>"; };
+		3ADE6B1621D769CA0099F329 /* TwoHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoHomeViewController.h; sourceTree = "<group>"; };
+		3ADE6B1721D769CA0099F329 /* TwoHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoHomeViewController.m; sourceTree = "<group>"; };
+		3ADE6B1921D76A1E0099F329 /* ThreeHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeHomeViewController.h; sourceTree = "<group>"; };
+		3ADE6B1A21D76A1E0099F329 /* ThreeHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeHomeViewController.m; sourceTree = "<group>"; };
 		8C57E833AD2250475EF41A0D /* Pods-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-IOS/Pods-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DF28DE8C6C023F1E58672194 /* Pods_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD7C5F6B062F70AC48BE237 /* Pods-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-IOS/Pods-IOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,9 +79,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3A303C5521DE28B7001B0F12 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3A303C5D21DE2962001B0F12 /* NSString+EWT.h */,
+				3A303C5A21DE2961001B0F12 /* NSString+EWT.m */,
+				3A303C5E21DE2962001B0F12 /* UIColor+EWT.h */,
+				3A303C5921DE2961001B0F12 /* UIColor+EWT.m */,
+				3A303C5621DE2961001B0F12 /* UIView+EWT.h */,
+				3A303C5721DE2961001B0F12 /* UIView+EWT.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		3AC1B29321CA48A6006892B1 = {
 			isa = PBXGroup;
 			children = (
+				3ADE6B0B21D7654B0099F329 /* Base */,
 				3AC1B29E21CA48A6006892B1 /* IOS */,
 				3AC1B29D21CA48A6006892B1 /* Products */,
 				0214EB033CAA5CDB1144E332 /* Pods */,
@@ -74,17 +114,101 @@
 		3AC1B29E21CA48A6006892B1 /* IOS */ = {
 			isa = PBXGroup;
 			children = (
+				3ADE6B1421D7699F0099F329 /* Three */,
+				3ADE6B1221D769960099F329 /* Two */,
+				3ADE6B1021D7698C0099F329 /* One */,
 				3AC1B29F21CA48A6006892B1 /* AppDelegate.h */,
 				3AC1B2A021CA48A6006892B1 /* AppDelegate.m */,
-				3AC1B2A221CA48A6006892B1 /* ViewController.h */,
-				3AC1B2A321CA48A6006892B1 /* ViewController.m */,
 				3AC1B2A521CA48A6006892B1 /* Main.storyboard */,
 				3AC1B2A821CA48A6006892B1 /* Assets.xcassets */,
 				3AC1B2AA21CA48A6006892B1 /* LaunchScreen.storyboard */,
 				3AC1B2AD21CA48A6006892B1 /* Info.plist */,
 				3AC1B2AE21CA48A6006892B1 /* main.m */,
+				3A303C4E21DE0EEE001B0F12 /* IOSPrefixHeader.pch */,
 			);
 			path = IOS;
+			sourceTree = "<group>";
+		};
+		3ADE6B0B21D7654B0099F329 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3A303C5521DE28B7001B0F12 /* Category */,
+				3ADE6B1C21DCB8340099F329 /* Headers */,
+				3ADE6B0C21D7654B0099F329 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3ADE6B0C21D7654B0099F329 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE6B0D21D7655D0099F329 /* YFLBaseViewController.h */,
+				3ADE6B0E21D7655D0099F329 /* YFLBaseViewController.m */,
+				3A303C4F21DE147C001B0F12 /* YFLBaseNavigationController.h */,
+				3A303C5021DE147C001B0F12 /* YFLBaseNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3ADE6B1021D7698C0099F329 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE6B1121D7698C0099F329 /* Controller */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		3ADE6B1121D7698C0099F329 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1B2A221CA48A6006892B1 /* ViewController.h */,
+				3AC1B2A321CA48A6006892B1 /* ViewController.m */,
+				3A303C5221DE1573001B0F12 /* OneHomeViewController.h */,
+				3A303C5321DE1573001B0F12 /* OneHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3ADE6B1221D769960099F329 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE6B1321D769960099F329 /* Controller */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		3ADE6B1321D769960099F329 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE6B1621D769CA0099F329 /* TwoHomeViewController.h */,
+				3ADE6B1721D769CA0099F329 /* TwoHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3ADE6B1421D7699F0099F329 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE6B1521D7699F0099F329 /* Controller */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		3ADE6B1521D7699F0099F329 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3ADE6B1921D76A1E0099F329 /* ThreeHomeViewController.h */,
+				3ADE6B1A21D76A1E0099F329 /* ThreeHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3ADE6B1C21DCB8340099F329 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3A303C4D21DE0D00001B0F12 /* YFLBase.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		F0E26DB03A5E8199EF4BD4CE /* Frameworks */ = {
@@ -229,9 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A303C6221DE2962001B0F12 /* UIColor+EWT.m in Sources */,
+				3ADE6B1B21D76A1E0099F329 /* ThreeHomeViewController.m in Sources */,
 				3AC1B2A421CA48A6006892B1 /* ViewController.m in Sources */,
 				3AC1B2AF21CA48A6006892B1 /* main.m in Sources */,
 				3AC1B2A121CA48A6006892B1 /* AppDelegate.m in Sources */,
+				3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */,
+				3A303C5421DE1573001B0F12 /* OneHomeViewController.m in Sources */,
+				3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */,
+				3ADE6B0F21D7655D0099F329 /* YFLBaseViewController.m in Sources */,
+				3A303C5121DE147C001B0F12 /* YFLBaseNavigationController.m in Sources */,
+				3ADE6B1821D769CA0099F329 /* TwoHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +500,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK5694975F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOS/IOSPrefixHeader.pch";
 				INFOPLIST_FILE = IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -384,6 +518,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK5694975F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOS/IOSPrefixHeader.pch";
 				INFOPLIST_FILE = IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
