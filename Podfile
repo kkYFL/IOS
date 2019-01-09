@@ -25,6 +25,6 @@ target 'IOS' do
   pod 'Reachability', '~> 3.2'
   pod 'YYText'
   pod 'iCarousel'
-  
+  pod 'MLeaksFinder'
 
   end

@@ -7,9 +7,11 @@
 //
 
 #import "OneHomeViewController.h"
+#import "OneContentViewController.h"
 
 @interface OneHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *table;
+@property (nonatomic, strong) NSString *content;
 @end
 
 @implementation OneHomeViewController
@@ -63,7 +65,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    OneContentViewController *contentVC = [[OneContentViewController alloc] init];
+    contentVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:contentVC animated:YES];
 }
 
 #pragma mark - 懒加载

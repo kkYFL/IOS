@@ -7,6 +7,7 @@
 //
 
 #import "YFLBaseViewController.h"
+#import "AppDelegate.h"
 
 @interface YFLBaseViewController ()
 
@@ -16,9 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-
-    
 }
 
 -(void)viewWillAppear:(BOOL)animated{
