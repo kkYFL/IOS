@@ -12,5 +12,11 @@
 #import "NSString+EWT.h"
 #import "UIColor+EWT.h"
 #import "UIView+EWT.h"
+#import "UIViewController+EWTRuntime.h"
+#import "NSData+EWT.h"
+#import "NSDate+EWT.h"
+#import "NSObject+Dealloc.h"
+#import "NSObject+EWTCurrentController.h"
+#import "NSObject+EWTRuntime.h"
 
 #endif /* categoryHeader_h */
