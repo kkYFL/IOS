@@ -15,11 +15,14 @@
 		3A107A5521E5F03400701868 /* NSObject+EWTCurrentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A107A4B21E5F03300701868 /* NSObject+EWTCurrentController.m */; };
 		3A107A5621E5F03400701868 /* NSObject+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A107A4D21E5F03300701868 /* NSObject+Dealloc.m */; };
 		3A107A5921E5F27700701868 /* UIViewController+EWTRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A107A5821E5F27700701868 /* UIViewController+EWTRuntime.m */; };
+		3A29F2B821F86264003F9B1B /* YFLTmpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A29F2B721F86264003F9B1B /* YFLTmpTool.m */; };
+		3A29F2BC21F866C5003F9B1B /* UIImage+YFL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A29F2BB21F866C5003F9B1B /* UIImage+YFL.m */; };
 		3A303C5121DE147C001B0F12 /* YFLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5021DE147C001B0F12 /* YFLBaseNavigationController.m */; };
 		3A303C5421DE1573001B0F12 /* OneHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5321DE1573001B0F12 /* OneHomeViewController.m */; };
 		3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5721DE2961001B0F12 /* UIView+EWT.m */; };
 		3A303C6221DE2962001B0F12 /* UIColor+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5921DE2961001B0F12 /* UIColor+EWT.m */; };
 		3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5A21DE2961001B0F12 /* NSString+EWT.m */; };
+		3A8621A921FB0DFF0056F412 /* YFLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8621A821FB0DFF0056F412 /* YFLPerson.m */; };
 		3AC1B2A121CA48A6006892B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A021CA48A6006892B1 /* AppDelegate.m */; };
 		3AC1B2A421CA48A6006892B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A321CA48A6006892B1 /* ViewController.m */; };
 		3AC1B2A721CA48A6006892B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A521CA48A6006892B1 /* Main.storyboard */; };
@@ -49,6 +52,10 @@
 		3A107A5121E5F03300701868 /* NSObject+Dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dealloc.h"; sourceTree = "<group>"; };
 		3A107A5721E5F27600701868 /* UIViewController+EWTRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EWTRuntime.h"; sourceTree = "<group>"; };
 		3A107A5821E5F27700701868 /* UIViewController+EWTRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EWTRuntime.m"; sourceTree = "<group>"; };
+		3A29F2B621F86264003F9B1B /* YFLTmpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLTmpTool.h; sourceTree = "<group>"; };
+		3A29F2B721F86264003F9B1B /* YFLTmpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLTmpTool.m; sourceTree = "<group>"; };
+		3A29F2BA21F866C5003F9B1B /* UIImage+YFL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YFL.h"; sourceTree = "<group>"; };
+		3A29F2BB21F866C5003F9B1B /* UIImage+YFL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YFL.m"; sourceTree = "<group>"; };
 		3A303C4D21DE0D00001B0F12 /* YFLBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLBase.h; sourceTree = "<group>"; };
 		3A303C4E21DE0EEE001B0F12 /* IOSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSPrefixHeader.pch; sourceTree = "<group>"; };
 		3A303C4F21DE147C001B0F12 /* YFLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLBaseNavigationController.h; sourceTree = "<group>"; };
@@ -61,6 +68,8 @@
 		3A303C5A21DE2961001B0F12 /* NSString+EWT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EWT.m"; sourceTree = "<group>"; };
 		3A303C5D21DE2962001B0F12 /* NSString+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EWT.h"; sourceTree = "<group>"; };
 		3A303C5E21DE2962001B0F12 /* UIColor+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EWT.h"; sourceTree = "<group>"; };
+		3A8621A721FB0DFF0056F412 /* YFLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLPerson.h; sourceTree = "<group>"; };
+		3A8621A821FB0DFF0056F412 /* YFLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLPerson.m; sourceTree = "<group>"; };
 		3AC1B29C21CA48A6006892B1 /* IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC1B29F21CA48A6006892B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AC1B2A021CA48A6006892B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +120,19 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		3A29F2B921F86682003F9B1B /* TestFile */ = {
+			isa = PBXGroup;
+			children = (
+				3A29F2B621F86264003F9B1B /* YFLTmpTool.h */,
+				3A29F2B721F86264003F9B1B /* YFLTmpTool.m */,
+				3A29F2BA21F866C5003F9B1B /* UIImage+YFL.h */,
+				3A29F2BB21F866C5003F9B1B /* UIImage+YFL.m */,
+				3A8621A721FB0DFF0056F412 /* YFLPerson.h */,
+				3A8621A821FB0DFF0056F412 /* YFLPerson.m */,
+			);
+			path = TestFile;
+			sourceTree = "<group>";
+		};
 		3A303C5521DE28B7001B0F12 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +180,7 @@
 		3AC1B29E21CA48A6006892B1 /* IOS */ = {
 			isa = PBXGroup;
 			children = (
+				3A29F2B921F86682003F9B1B /* TestFile */,
 				3ADE6B1421D7699F0099F329 /* Three */,
 				3ADE6B1221D769960099F329 /* Two */,
 				3ADE6B1021D7698C0099F329 /* One */,
@@ -407,6 +430,7 @@
 				3A107A5321E5F03400701868 /* NSData+EWT.m in Sources */,
 				3A107A5621E5F03400701868 /* NSObject+Dealloc.m in Sources */,
 				3A107A4221E5E31F00701868 /* OneContentViewController.m in Sources */,
+				3A8621A921FB0DFF0056F412 /* YFLPerson.m in Sources */,
 				3A107A5921E5F27700701868 /* UIViewController+EWTRuntime.m in Sources */,
 				3ADE6B1B21D76A1E0099F329 /* ThreeHomeViewController.m in Sources */,
 				3A107A5521E5F03400701868 /* NSObject+EWTCurrentController.m in Sources */,
@@ -415,7 +439,9 @@
 				3AC1B2A121CA48A6006892B1 /* AppDelegate.m in Sources */,
 				3A107A5421E5F03400701868 /* NSObject+EWTRuntime.m in Sources */,
 				3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */,
+				3A29F2BC21F866C5003F9B1B /* UIImage+YFL.m in Sources */,
 				3A303C5421DE1573001B0F12 /* OneHomeViewController.m in Sources */,
+				3A29F2B821F86264003F9B1B /* YFLTmpTool.m in Sources */,
 				3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */,
 				3ADE6B0F21D7655D0099F329 /* YFLBaseViewController.m in Sources */,
 				3A303C5121DE147C001B0F12 /* YFLBaseNavigationController.m in Sources */,

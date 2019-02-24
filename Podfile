@@ -23,7 +23,12 @@ target 'IOS' do
   pod 'FMDB'
   pod 'SAMKeychain'
   pod 'Reachability', '~> 3.2'
-  pod 'YYText'
+  
+  
+  #富文本框架
+  pod 'YYText'#YYText实现一些复杂的文字效果的实现，降低开发的效率
+  
+  
   pod 'iCarousel'
   pod 'MLeaksFinder'
 

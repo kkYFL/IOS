@@ -8,10 +8,15 @@
 
 #import "OneHomeViewController.h"
 #import "OneContentViewController.h"
+#import "YFLTmpTool.h"
+#import "YFLPerson.h"
 
 @interface OneHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *table;
 @property (nonatomic, strong) NSString *content;
+@property (nonatomic, strong) YFLTmpTool *yflTool;
+
+@property (nonatomic, strong) UIImageView *tmpView;
 @end
 
 @implementation OneHomeViewController
@@ -24,12 +29,24 @@
     [self initView];
     
     [self loadData];
+    
+    
+    self.tmpView = [[UIImageView alloc]init];
+    [self.tmpView setImage:[UIImage imageNamed:@"user_icon"]];
+    
+    YFLPerson *person = [[YFLPerson alloc]init];
+    person.name = @"YFL";
+    [person performSelector:@selector(eat)];
+    
 }
 
 -(void)initView{
     [self.view addSubview:self.table];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"click" style:UIBarButtonItemStylePlain target:self action:@selector(rightClick:)];
+    
+    
+    self.yflTool = [[YFLTmpTool alloc]init];
 }
 
 -(void)loadData{
@@ -89,8 +106,35 @@
 
 #pragma mark - methord
 -(void)rightClick:(UIButton *)sender{
-    [self.table reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:0 inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
-    [self.table reloadRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:0 inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
+
+//    int val = 10; void (^blk)(void) = ^{ printf("val=%d\n",val);
+//    };
+//    val = 2;
+//    blk();
+    
+//    int val = 10;
+//    void (^blk) (void) = ^{
+//        NSLog(@"%d",val);
+//    };
+//
+//    val = 2;
+//
+//    blk();
+    
+   __block int val = 10;
+    void (^blk) (void) = ^{
+        NSLog(@"%d",val);
+    };
+    
+    val = 2;
+    
+    blk();
+    
+    
+    typedef void (^handleBlock)(void);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
