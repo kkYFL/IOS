@@ -22,6 +22,9 @@
 		3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5721DE2961001B0F12 /* UIView+EWT.m */; };
 		3A303C6221DE2962001B0F12 /* UIColor+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5921DE2961001B0F12 /* UIColor+EWT.m */; };
 		3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5A21DE2961001B0F12 /* NSString+EWT.m */; };
+		3A7354F323618E0800AD547B /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7354F223618E0800AD547B /* ChartViewController.m */; };
+		3A7354F623619C4000AD547B /* chartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7354F523619C4000AD547B /* chartView.m */; };
+		3A7354F92361AD8100AD547B /* ChartLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7354F82361AD8100AD547B /* ChartLayoutView.m */; };
 		3A8621A921FB0DFF0056F412 /* YFLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8621A821FB0DFF0056F412 /* YFLPerson.m */; };
 		3AC1B2A121CA48A6006892B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A021CA48A6006892B1 /* AppDelegate.m */; };
 		3AC1B2A421CA48A6006892B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1B2A321CA48A6006892B1 /* ViewController.m */; };
@@ -68,6 +71,12 @@
 		3A303C5A21DE2961001B0F12 /* NSString+EWT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EWT.m"; sourceTree = "<group>"; };
 		3A303C5D21DE2962001B0F12 /* NSString+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EWT.h"; sourceTree = "<group>"; };
 		3A303C5E21DE2962001B0F12 /* UIColor+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EWT.h"; sourceTree = "<group>"; };
+		3A7354F123618E0800AD547B /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		3A7354F223618E0800AD547B /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		3A7354F423619C4000AD547B /* chartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chartView.h; sourceTree = "<group>"; };
+		3A7354F523619C4000AD547B /* chartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chartView.m; sourceTree = "<group>"; };
+		3A7354F72361AD8100AD547B /* ChartLayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartLayoutView.h; sourceTree = "<group>"; };
+		3A7354F82361AD8100AD547B /* ChartLayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartLayoutView.m; sourceTree = "<group>"; };
 		3A8621A721FB0DFF0056F412 /* YFLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFLPerson.h; sourceTree = "<group>"; };
 		3A8621A821FB0DFF0056F412 /* YFLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLPerson.m; sourceTree = "<group>"; };
 		3AC1B29C21CA48A6006892B1 /* IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +167,19 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		3A7354F023618DD300AD547B /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				3A7354F123618E0800AD547B /* ChartViewController.h */,
+				3A7354F223618E0800AD547B /* ChartViewController.m */,
+				3A7354F423619C4000AD547B /* chartView.h */,
+				3A7354F523619C4000AD547B /* chartView.m */,
+				3A7354F72361AD8100AD547B /* ChartLayoutView.h */,
+				3A7354F82361AD8100AD547B /* ChartLayoutView.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 		3AC1B29321CA48A6006892B1 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +241,7 @@
 		3ADE6B1021D7698C0099F329 /* One */ = {
 			isa = PBXGroup;
 			children = (
+				3A7354F023618DD300AD547B /* Chart */,
 				3A107A4321E5E85A00701868 /* View */,
 				3ADE6B1121D7698C0099F329 /* Controller */,
 			);
@@ -434,16 +457,19 @@
 				3A107A4221E5E31F00701868 /* OneContentViewController.m in Sources */,
 				3A8621A921FB0DFF0056F412 /* YFLPerson.m in Sources */,
 				3A107A5921E5F27700701868 /* UIViewController+EWTRuntime.m in Sources */,
+				3A7354F323618E0800AD547B /* ChartViewController.m in Sources */,
 				3ADE6B1B21D76A1E0099F329 /* ThreeHomeViewController.m in Sources */,
 				3A107A5521E5F03400701868 /* NSObject+EWTCurrentController.m in Sources */,
 				3AC1B2A421CA48A6006892B1 /* ViewController.m in Sources */,
 				3AC1B2AF21CA48A6006892B1 /* main.m in Sources */,
+				3A7354F623619C4000AD547B /* chartView.m in Sources */,
 				3AC1B2A121CA48A6006892B1 /* AppDelegate.m in Sources */,
 				3A107A5421E5F03400701868 /* NSObject+EWTRuntime.m in Sources */,
 				3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */,
 				3A29F2BC21F866C5003F9B1B /* UIImage+YFL.m in Sources */,
 				3A303C5421DE1573001B0F12 /* OneHomeViewController.m in Sources */,
 				3A29F2B821F86264003F9B1B /* YFLTmpTool.m in Sources */,
+				3A7354F92361AD8100AD547B /* ChartLayoutView.m in Sources */,
 				3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */,
 				3ADE6B0F21D7655D0099F329 /* YFLBaseViewController.m in Sources */,
 				3A303C5121DE147C001B0F12 /* YFLBaseNavigationController.m in Sources */,

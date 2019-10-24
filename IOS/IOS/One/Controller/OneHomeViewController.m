@@ -8,6 +8,7 @@
 
 #import "OneHomeViewController.h"
 #import "OneContentViewController.h"
+#import "ChartViewController.h"
 #import "YFLTmpTool.h"
 #import "YFLPerson.h"
 #import "ReactiveCocoa.h"
@@ -28,9 +29,9 @@
     
     self.title = @"ONE";
     
-//    [self initView];
-//
-//    [self loadData];
+    [self initView];
+
+    [self loadData];
 //
 //
 //    self.tmpView = [[UIImageView alloc]init];
@@ -77,7 +78,7 @@
 //    }];
     
     
-    [self test1];
+//    [self test1];
     
     
     
@@ -133,14 +134,28 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identify];
     }
+    if (indexPath.row == 0) {
+        cell.textLabel.text = @"Chart";
+        
+//        cell.textLabel.font = [UIFont fontWithName:@"Ayuthaya" size:20];
+//        cell.textLabel.font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:20];
+        cell.textLabel.font = [UIFont fontWithName:@"Verdana" size:20];
+
+    }
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    OneContentViewController *contentVC = [[OneContentViewController alloc] init];
-    contentVC.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:contentVC animated:YES];
+    if (indexPath.row == 0) {
+        ChartViewController *charVC = [[ChartViewController alloc] init];
+        charVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:charVC animated:YES];
+    }else{
+        OneContentViewController *contentVC = [[OneContentViewController alloc] init];
+        contentVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:contentVC animated:YES];
+    }
 }
 
 #pragma mark - 懒加载
