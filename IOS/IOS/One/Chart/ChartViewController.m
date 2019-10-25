@@ -23,6 +23,7 @@
 
     
     ChartLayoutView *chart = [[ChartLayoutView alloc]initWithFrame:CGRectMake(12.0f, 100, SCREEN_WIDTH-24.0f, 211.0f)];
+    chart.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:chart];
     
 

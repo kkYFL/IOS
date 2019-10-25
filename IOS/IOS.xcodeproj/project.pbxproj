@@ -22,6 +22,8 @@
 		3A303C6021DE2962001B0F12 /* UIView+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5721DE2961001B0F12 /* UIView+EWT.m */; };
 		3A303C6221DE2962001B0F12 /* UIColor+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5921DE2961001B0F12 /* UIColor+EWT.m */; };
 		3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A303C5A21DE2961001B0F12 /* NSString+EWT.m */; };
+		3A5C738B2362948600EC57EE /* Chart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C738A2362948600EC57EE /* Chart1ViewController.m */; };
+		3A5C738E2362957300EC57EE /* ChartView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C738D2362957300EC57EE /* ChartView1.m */; };
 		3A7354F323618E0800AD547B /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7354F223618E0800AD547B /* ChartViewController.m */; };
 		3A7354F623619C4000AD547B /* chartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7354F523619C4000AD547B /* chartView.m */; };
 		3A7354F92361AD8100AD547B /* ChartLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7354F82361AD8100AD547B /* ChartLayoutView.m */; };
@@ -71,6 +73,10 @@
 		3A303C5A21DE2961001B0F12 /* NSString+EWT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EWT.m"; sourceTree = "<group>"; };
 		3A303C5D21DE2962001B0F12 /* NSString+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EWT.h"; sourceTree = "<group>"; };
 		3A303C5E21DE2962001B0F12 /* UIColor+EWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EWT.h"; sourceTree = "<group>"; };
+		3A5C73892362948600EC57EE /* Chart1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chart1ViewController.h; sourceTree = "<group>"; };
+		3A5C738A2362948600EC57EE /* Chart1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chart1ViewController.m; sourceTree = "<group>"; };
+		3A5C738C2362957300EC57EE /* ChartView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartView1.h; sourceTree = "<group>"; };
+		3A5C738D2362957300EC57EE /* ChartView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartView1.m; sourceTree = "<group>"; };
 		3A7354F123618E0800AD547B /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
 		3A7354F223618E0800AD547B /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
 		3A7354F423619C4000AD547B /* chartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chartView.h; sourceTree = "<group>"; };
@@ -176,6 +182,10 @@
 				3A7354F523619C4000AD547B /* chartView.m */,
 				3A7354F72361AD8100AD547B /* ChartLayoutView.h */,
 				3A7354F82361AD8100AD547B /* ChartLayoutView.m */,
+				3A5C73892362948600EC57EE /* Chart1ViewController.h */,
+				3A5C738A2362948600EC57EE /* Chart1ViewController.m */,
+				3A5C738C2362957300EC57EE /* ChartView1.h */,
+				3A5C738D2362957300EC57EE /* ChartView1.m */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -456,6 +466,7 @@
 				3A107A5621E5F03400701868 /* NSObject+Dealloc.m in Sources */,
 				3A107A4221E5E31F00701868 /* OneContentViewController.m in Sources */,
 				3A8621A921FB0DFF0056F412 /* YFLPerson.m in Sources */,
+				3A5C738B2362948600EC57EE /* Chart1ViewController.m in Sources */,
 				3A107A5921E5F27700701868 /* UIViewController+EWTRuntime.m in Sources */,
 				3A7354F323618E0800AD547B /* ChartViewController.m in Sources */,
 				3ADE6B1B21D76A1E0099F329 /* ThreeHomeViewController.m in Sources */,
@@ -472,6 +483,7 @@
 				3A7354F92361AD8100AD547B /* ChartLayoutView.m in Sources */,
 				3A303C6321DE2962001B0F12 /* NSString+EWT.m in Sources */,
 				3ADE6B0F21D7655D0099F329 /* YFLBaseViewController.m in Sources */,
+				3A5C738E2362957300EC57EE /* ChartView1.m in Sources */,
 				3A303C5121DE147C001B0F12 /* YFLBaseNavigationController.m in Sources */,
 				3A107A5221E5F03400701868 /* NSDate+EWT.m in Sources */,
 				3ADE6B1821D769CA0099F329 /* TwoHomeViewController.m in Sources */,

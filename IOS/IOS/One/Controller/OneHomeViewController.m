@@ -9,6 +9,7 @@
 #import "OneHomeViewController.h"
 #import "OneContentViewController.h"
 #import "ChartViewController.h"
+#import "Chart1ViewController.h"
 #import "YFLTmpTool.h"
 #import "YFLPerson.h"
 #import "ReactiveCocoa.h"
@@ -80,22 +81,8 @@
     
 //    [self test1];
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
+
 
 -(void)initView{
     [self.view addSubview:self.table];
@@ -133,14 +120,12 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identify];
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identify];
+        cell.textLabel.font = [UIFont fontWithName:@"Verdana" size:20];
     }
     if (indexPath.row == 0) {
         cell.textLabel.text = @"Chart";
-        
-//        cell.textLabel.font = [UIFont fontWithName:@"Ayuthaya" size:20];
-//        cell.textLabel.font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:20];
-        cell.textLabel.font = [UIFont fontWithName:@"Verdana" size:20];
-
+    }else if (indexPath.row == 1){
+        cell.textLabel.text = @"Chart1";
     }
     return cell;
 }
@@ -151,6 +136,10 @@
         ChartViewController *charVC = [[ChartViewController alloc] init];
         charVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:charVC animated:YES];
+    }else if (indexPath.row == 1){
+        Chart1ViewController *charVC1 = [[Chart1ViewController alloc] init];
+        charVC1.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:charVC1 animated:YES];
     }else{
         OneContentViewController *contentVC = [[OneContentViewController alloc] init];
         contentVC.hidesBottomBarWhenPushed = YES;
